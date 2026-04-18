@@ -1,0 +1,80 @@
+{
+  "c-major": {
+    "key": "c-major",
+    "num_sharps": 0,
+    "num_flats": 0,
+    "notes": ["G4", "A4", "B4", "C5", "D5", "E5", "F5", "G5", "A5", "B5", "C6", "D6", "E6", "F6", "G6", "A6", "B6", "C7"]
+  },
+  "g-major": {
+    "key": "g-major",
+    "num_sharps": 1,
+    "num_flats": 0,
+    "notes": ["G4", "A4", "B4", "C5", "D5", "E5", "F#5", "G5", "A5", "B5", "C6", "D6", "E6", "F#6", "G6", "A6", "B6", "C7"]
+  },
+  "d-major": {
+    "key": "d-major",
+    "num_sharps": 2,
+    "num_flats": 0,
+    "notes": ["G4", "A4", "B4", "C#5", "D5", "E5", "F#5", "G5", "A5", "B5", "C#6", "D6", "E6", "F#6", "G6", "A6", "B6", "C#7"]
+  },
+  "a-major": {
+    "key": "a-major",
+    "num_sharps": 3,
+    "num_flats": 0,
+    "notes": ["G#4", "A4", "B4", "C#5", "D5", "E5", "F#5", "G#5", "A5", "B5", "C#6", "D6", "E6", "F#6", "G#6", "A6", "B6", "C#7"]
+  },
+  "e-major": {
+    "key": "e-major",
+    "num_sharps": 4,
+    "num_flats": 0,
+    "notes": ["G#4", "A4", "B4", "C#5", "D#5", "E5", "F#5", "G#5", "A5", "B5", "C#6", "D#6", "E6", "F#6", "G#6", "A6", "B6", "C#7"]
+  },
+  "b-major": {
+    "key": "b-major",
+    "num_sharps": 5,
+    "num_flats": 0,
+    "notes": ["G#4", "A#4", "B4", "C#5", "D#5", "E5", "F#5", "G#5", "A#5", "B5", "C#6", "D#6", "E6", "F#6", "G#6", "A#6", "B6", "C#7"]
+  },
+  "f-sharp-major": {
+    "key": "f-sharp-major",
+    "num_sharps": 6,
+    "num_flats": 0,
+    "notes": ["G#4", "A#4", "B4", "C#5", "D#5", "E#5", "F#5", "G#5", "A#5", "B5", "C#6", "D#6", "E#6", "F#6", "G#6", "A#6", "B6", "C#7"]
+  },
+  "f-major": {
+    "key": "f-major",
+    "num_sharps": 0,
+    "num_flats": 1,
+    "notes": ["G4", "A4", "Bb4", "C5", "D5", "E5", "F5", "G5", "A5", "Bb5", "C6", "D6", "E6", "F6", "G6", "A6", "Bb6", "C7"]
+  },
+  "b-flat-major": {
+    "key": "b-flat-major",
+    "num_sharps": 0,
+    "num_flats": 2,
+    "notes": ["G4", "A4", "Bb4", "C5", "D5", "Eb5", "F5", "G5", "A5", "Bb5", "C6", "D6", "Eb6", "F6", "G6", "A6", "Bb6", "C7"]
+  },
+  "e-flat-major": {
+    "key": "e-flat-major",
+    "num_sharps": 0,
+    "num_flats": 3,
+    "notes": ["G4", "Ab4", "Bb4", "C5", "D5", "Eb5", "F5", "G5", "Ab5", "Bb5", "C6", "D6", "Eb6", "F6", "G6", "Ab6", "Bb6", "C7"]
+  },
+  "a-flat-major": {
+    "key": "a-flat-major",
+    "num_sharps": 0,
+    "num_flats": 4,
+    "notes": ["G4", "Ab4", "Bb4", "C5", "Db5", "Eb5", "F5", "G5", "Ab5", "Bb5", "C6", "Db6", "Eb6", "F6", "G6", "Ab6", "Bb6", "C7"]
+  },
+  "d-flat-major": {
+    "key": "d-flat-major",
+    "num_sharps": 0,
+    "num_flats": 5,
+    "notes": ["Gb4", "Ab4", "Bb4", "C5", "Db5", "Eb5", "F5", "Gb5", "Ab5", "Bb5", "C6", "Db6", "Eb6", "F6", "Gb6", "Ab6", "Bb6", "C7"]
+  },
+  "g-flat-major": {
+    "key": "g-flat-major",
+    "num_sharps": 0,
+    "num_flats": 6,
+    "notes": ["Gb4", "Ab4", "Bb4", "Cb5", "Db5", "Eb5", "F5", "Gb5", "Ab5", "Bb5", "Cb6", "Db6", "Eb6", "F6", "Gb6", "Ab6", "Bb6", "Cb7"]
+  }
+}
