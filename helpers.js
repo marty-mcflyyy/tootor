@@ -21,7 +21,13 @@ var currentKey = "c-major";
 var currentNoteIndex = 3;
 
 function getRandomNoteIndex(key) {
-  return Math.floor(Math.random() * musicalKeysInfo[key].notes.length);
+  const randomIndex = Math.floor(
+    Math.random() * (musicalKeysInfo[key].notes.length - 1),
+  );
+  if (randomIndex >= currentNoteIndex) {
+    return randomIndex + 1;
+  }
+  return randomIndex;
 }
 
 const heldValves = new Set();
