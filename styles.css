@@ -113,9 +113,9 @@ fieldset {
 }
 
 .indicator.show {
-  animation: my-animation 1s 1;
+  animation: indicator-fade-out 1s 1;
 }
-@keyframes my-animation {
+@keyframes indicator-fade-out {
   0% {
     opacity: 1;
   }
@@ -124,6 +124,25 @@ fieldset {
   }
   100% {
     opacity: 0;
+  }
+}
+
+#note.wiggle {
+  animation: wiggle 0.3s;
+}
+
+@keyframes wiggle {
+  25% {
+    transform: translate(0px, -1px);
+  }
+  50% {
+    transform: translate(0px, 1px);
+  }
+  75% {
+    transform: translate(0px, -1px);
+  }
+  100% {
+    transform: translate(0px, 0px);
   }
 }
 

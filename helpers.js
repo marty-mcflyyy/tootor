@@ -174,6 +174,17 @@ function handleEnter() {
 
     changeNotePosition(currentNoteIndex);
   } else {
+    const note = document.getElementById("note");
+    void note.offsetWidth; // this force-restarts the CSS animation
+    note.classList.add("wiggle");
+    note.addEventListener(
+      "animationend",
+      () => {
+        note.classList.remove("wiggle");
+      },
+      { once: true },
+    );
+
     for (const valve of getCorrectValves()) {
       if (valve === "0") {
         continue;
