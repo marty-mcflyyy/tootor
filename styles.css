@@ -17,11 +17,14 @@
   --theme-font-mono: "JetBrains Mono", "Courier New", monospace;
   --theme-font-regular:
     "Inter", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background-color: var(--background-colour);
+  background-image: url("./background.svg");
+  background-size: 35px;
 }
 
 body {
   font-family: var(--theme-font-mono);
-  background-color: var(--background-colour);
+
   color: var(--primary-colour);
 
   margin-right: 20%;
@@ -61,13 +64,24 @@ rect {
 }
 
 div,
-fieldset {
+fieldset,
+dialog {
+  background-color: var(--background-colour);
   border: 2px solid var(--border-colour);
   padding: 1rem;
   padding-right: 3rem;
   padding-left: 3rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
+}
+
+dialog#information {
+  z-index: 20;
+  height: 80%;
+}
+
+body:has(dialog#information[open]) {
+  overflow: hidden;
 }
 
 fieldset {
